@@ -57,7 +57,7 @@
         renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         renderer.setPixelRatio(window.devicePixelRatio);
         renderer.setSize(window.innerWidth, window.innerHeight);
-		renderer.xr.enabled = true;
+        renderer.xr.enabled = true;
         container.appendChild(renderer.domElement);
 
         // Everything hereafter is optional things we want to add to the scene
@@ -79,6 +79,9 @@
         // IcosahedronGeometry(radius : Float, detail : Integer)
         // radius — Default is 1.
         // detail — Default is 0. Setting this to a value greater than 0 adds more vertices making it no longer an icosahedron. When detail is greater than 1, it's effectively a sphere.
+        var texture = new THREE.TextureLoader().load("textures/iTouch.png");
+        var texture2 = new THREE.TextureLoader().load("textures/lw.jpg");
+        
         const geometry = new THREE.IcosahedronGeometry(0.1, 1);
         const material = new THREE.MeshPhongMaterial({
           color: new THREE.Color("rgb(226,35,213)"),
@@ -86,14 +89,17 @@
           shading: true,
           transparent: 1,
           opacity: 0.8,
+          map: texture2,
         });
         const mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
         mesh.position.set(0, 0, -0.5);
 
         // Cube
+
         const geometry2 = new THREE.BoxGeometry(0.3, 0.3, 0.3);
-        const material2 = new THREE.MeshBasicMaterial({ color: 0xe06666 });
+        //const material2 = new THREE.MeshBasicMaterial({ color: 0xe06666 });
+        var material2 = new THREE.MeshBasicMaterial({ map: texture });
         const cubeMesh = new THREE.Mesh(geometry2, material2);
         scene.add(cubeMesh);
         cubeMesh.position.z = -1;
