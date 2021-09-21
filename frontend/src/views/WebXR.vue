@@ -22,7 +22,7 @@
           >Documentation</a
         >
         <a
-          href="http://localhost:8080/webXR/WebXRandThreejs.html"
+          href="/webXR/WebXRandThreejs.html"
           class="button"
           target="_blank"
           rel="noopener noreferrer"

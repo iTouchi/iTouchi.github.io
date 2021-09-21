@@ -15,4 +15,4 @@ git commit -m 'deploy'
 
 git push -f git@github.com:itouchi/itouchi.github.io.git master:gh-pages
 
-cd -
+cd ./..

@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/iTouchi.github.io/',
+    publicPath: './',
     css: {
       loaderOptions: {
         sass: {
