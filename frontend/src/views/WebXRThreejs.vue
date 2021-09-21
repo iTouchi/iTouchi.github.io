@@ -6,7 +6,7 @@
 
 <script>
 import * as THREE from "three";
-import { ARButton } from "../components/ARButton";
+import { ARButton } from "../scripts/ARButton";
 console.log(ARButton);
 
 export default {
