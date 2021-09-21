@@ -1,0 +1,202 @@
+//----------- Breakpoints based on https://getbootstrap.com/docs/4.0/layout/overview/
+@mixin mobile {
+  @media (max-width: 575.98px)  { @content; }
+}
+@mixin landscape-mobile {
+  @media (min-width: 576px) and (max-width: 767.98px)  { @content; }
+}
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 991.98px)    { @content; }
+}
+@mixin desktop {
+  @media (min-width: 992px) and (max-width: 1199.98px)   { @content; }
+}
+@mixin desktop-large {
+  @media (min-width: 1200px)   { @content; }
+}
+
+//----------- Mobile first breakpoints https://getbootstrap.com/docs/4.0/layout/overview/
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@mixin mobile-up {
+  @media (min-width: 576px) { @content; }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin tablet-up {
+  @media (min-width: 768px) { @content; }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin desktop-up {
+  @media (min-width: 992px) { @content; }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin desktopxl-up {
+  @media (min-width: 1200px) { @content; }
+}
+
+//----------- Desktop first breakpoints https://getbootstrap.com/docs/4.0/layout/overview/
+// Small devices (landscape phones, 576px and up)
+@mixin mobile-down {
+  @media (max-width: 575.98px) { @content; }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin tablet-down {
+  @media (max-width: 767.98px) { @content; }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin desktop-down {
+  @media (max-width: 991.98px) { @content; }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin desktopxl-down {
+  @media (max-width: 1199.98px) { @content; }
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include transform(translate(-50%, -50%));
+}
+
+@mixin center-y {
+  position: absolute;
+  top: 50%;
+  @include transform(translate(0%, -50%));
+}
+
+@mixin center-x {
+  position: absolute;
+  left: 50%;
+  @include transform(translate(-50%, 0%));
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
+}
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+@mixin translate ($x, $y) {
+  @include transform(translate($x, $y));
+}
+@mixin skew ($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+@mixin transform-origin ($origin) {
+  moz-transform-origin: $origin;
+  -o-transform-origin: $origin;
+  -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+  transform-origin: $origin;
+}
+
+@mixin box-shadow($boxtop, $boxleft, $boxblur, $boxradius, $boxcolor) {
+  -webkit-box-shadow: $boxtop $boxleft $boxblur $boxradius $boxcolor;
+  -moz-box-shadow: $boxtop $boxleft $boxblur $boxradius $boxcolor;
+  box-shadow: $boxtop $boxleft $boxblur $boxradius $boxcolor;
+}
+
+@mixin no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+          eot: "?",
+          svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+          otf: "opentype",
+          ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+

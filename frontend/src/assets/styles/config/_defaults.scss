@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.full-width {
+    position: relative;
+    max-width: calc(1200px + var(--unit) * 2);
+    margin: 0 auto;
+    padding: 0 var(--unit);
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+input {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "copy": {
+        "title": {
+          "en": "WebAR Research",
+          "nl": "WebAR Onderzoek"
+        }
+      }
+    },
+    {
+      "name": "translations",
+      "copy": {
+        "intro": {
+          "title": {
+            "en": "Translations",
+            "nl": "Vertalingen"
+          },
+          "description": {
+            "en": "Many of our campaigns involve translations, which is why it's handy to have a translation module at the ready. With our homemade translation module you can easily add translations for both page-bound and global use.",
+            "nl": "Veel van onze campagnes gebruiken vertalingen, daarom is het altijd handig om een translation module bij de hand te hebben. Met deze module kan je makkelijk pagina-gebonden of globale vertalingen toevoegen."
+          }
+        },
+        "general": {
+          "title": {
+            "en": "General usage",
+            "nl": "Algemeen Gebruik"
+          },
+          "description": {
+            "introduction": {
+              "en": "The translation module is completely native to the VueX store, meaning it updates dynamically if you switch languages as long as you load your translations inside of your component's <b>computed attribute</b>. Putting it in your <b>data attribute</b> works but it <b>wouldn't</b> dynamically change the page's translations until you reload the page.",
+              "nl": "De vertalingsmodule is helemaal native in de VueX store gemaakt, hiermee updatet hij automatisch de vertalingen in het <b>computed attribuut</b> van jouw component. Je kan hem ook in je <b>data attribuut</b> steken maar dan laad die <b>niet</b> automatisch de nieuwe vertalingen in totdat je terug de pagina zou inladen."
+            },
+            "secondParagraph": {
+              "en": "This module has two main functions to get your translations from: <b>getTranslationsByPageName</b> and <b>getGlobalTranslation</b>. It is recommended to use the former for page-specific translations and the latter for reappearing terminology, like 'Accept' or 'Decline'.",
+              "nl": "Deze module heeft twee hoofdfuncties om jouw vertalingen mee te verkrijgen: <b>getTranslationsByPageName</b> en <b>getGlobalTranslation</b>. Het is aangeraden om de eerste te gebruiken voor pagina-specifieke vertalingen en de laatste voor veelvoorkomende termen zoals 'Accepteer' of 'Annuleren'."
+            },
+            "thirdParagraph": {
+              "en": "You can find the translation data under the <b>assets directory</b>, here you can edit and add as many translations as you like. Our module also accepts <b>deeper nesting</b> but try to keep it tame for legibility purposes. For the nesting feature to work it's important to add new languages to the state's <b>registeredLanguages</b>, so it recognises familiar geocodes during the parsing of objects.",
+              "nl": "Je kan de vertalingsdata vinden onder de <b>assets map</b>, hier kan je al je zoveel vertalingen toevoegen en aanpassen als je wil. Onze module accepteert ook het <b>dieper nesten</b> van JS objecten maar probeer het leesbaar de houden. Het is ook belangrijk voor het nesten dat je nieuwe talen toevoegd aan je <b>registeredLanguages</b>, zodat de geocodes hiervan ook herkent worden bij het parsen van objecten."
+            }
+          }
+        },
+        "changeLanguage": {
+          "title": {
+            "en": "Changing the app's language",
+            "nl": "Veranderen van taal"
+          },
+          "description": {
+            "introduction": {
+              "en": "Thanks to VueX, the translations automatically get updated the moment you set a new language. With the help of the <b>changeLanguage</b> action you can easily set a new language and have it sync the entire app for you.",
+              "nl": "Dankzij VueX worden de vertalingen automatisch geüpdated wanneer je van taal verandert. Met de hulp van de <b>changeLanguage</b> actie kan je makkelijk naar een nieuwe taal veranderen en ervoor zorgen dat de ganze applicatie ermee gesynct is."
+            }
+          }
+        },
+        "limitations": {
+          "title": {
+            "en": "Limitations",
+            "nl": "Beperkingen"
+          },
+          "description": {
+            "introduction": {
+              "en": "Not every module is perfect. In this case there are some restrictions in terms of rendering HTML with pure strings from JSON file. Thanks to V-HTML you can fill in the inner HTML elements which, for example, are very useful when you need to place external links to terms and conditions or when you need to highlight something. However, you cannot render custom components inside of a string, much like our <MonoSpace> component.",
+              "nl": "Niet every module is perfect. In dit geval zijn er ook een aantal beperkingen bij het renderen van HTML die je van strings uit een JSON file krijgt. Met V-HTML kan je de inner HTML van elementen aanpassen, wat heel handig is voor externe links en highlights is. Maar je kan er bijvoorbeeld geen custom componenten mee renderen."
+            },
+            "secondParagraph": {
+              "en": "Shortly put, this system is great for static content and less optimal when you need to render HTML. It's also generally not recommended to use V-HTML because it opens up the possibilities of opening up XSS insecurities.",
+              "nl": "Kortgezegd werkt dit systeem heel goed for statische content maar minder wanneer er HTML bij betrokken is. Sowieso is het ook niet aangeraden om V-HTML te gebruiken omdat het een mogelijke opening geeft tot XSS onveiligheden."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "global": {
+    "links": {
+      "home": {
+        "en": "Home",
+        "nl": "Start"
+      },
+      "gettingStarted": {
+        "en": "Getting Started",
+        "nl": "Hoe het werkt"
+      },
+      "router": {
+        "en": "Router",
+        "nl": "Router"
+      },
+      "store": {
+        "en":  "VueX Store",
+        "nl": "VueX Store"
+      },
+      "gtm": {
+        "en": "Vue GTM",
+        "nl": "Vue GTM"
+      },
+      "translations": {
+        "en": "Translations",
+        "nl": "Vertalingen"
+      },
+      "webxr": {
+        "en": "WebXR",
+        "nl": "WebXR"
+      }
+    }
+  }
+}

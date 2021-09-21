@@ -1,0 +1,29 @@
+@keyframes spriteanimation {
+    0% {
+        background-position: left calc(0 * 16.7%);
+    }
+
+    10% {
+        background-position: left calc(1 * 16.7%);
+    }
+
+    20% {
+        background-position: left calc(2 * 16.7%);
+    }
+
+    30% {
+        background-position: left calc(3 * 16.7%);
+    }
+
+    40% {
+        background-position: left calc(4 * 16.7%);
+    }
+
+    50% {
+        background-position: left calc(5 * 16.7%);
+    }
+
+    60% {
+        background-position: left calc(6 * 16.7%);
+    }
+}

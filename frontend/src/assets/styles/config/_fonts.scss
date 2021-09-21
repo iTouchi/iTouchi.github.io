@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Raleway&display=swap');
+
+html, body, #app {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: 'Barlow';
+	font-size: 80px;
+	color: black;
+	text-align: center;
+	line-height: 1.1;
+
+	@include mobile {
+		font-size: 32px;
+	}
+}
+
+p {
+	font-size: 16px;
+}
