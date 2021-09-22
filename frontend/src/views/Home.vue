@@ -10,7 +10,8 @@
         <router-link to="/vuex-store">{{linkNames.store}}</router-link> |
         <router-link to="/vue-tagmanager">{{linkNames.gtm}}</router-link> |
         <router-link to="/translations">{{linkNames.translations}}</router-link> | -->
-        <router-link to="/webxr">{{linkNames.webxr}}</router-link>
+        <router-link to="/webxr">{{linkNames.webxr}}</router-link> |
+        <router-link to="/banuba">{{linkNames.banuba}}</router-link>
       </div>
     </div>
   </div>

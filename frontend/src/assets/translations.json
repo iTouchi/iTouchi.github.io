@@ -102,6 +102,10 @@
       "webxr": {
         "en": "WebXR",
         "nl": "WebXR"
+      },
+      "banuba": {
+        "en": "Banuba",
+        "nl": "Banuba"
       }
     }
   }

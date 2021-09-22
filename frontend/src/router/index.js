@@ -9,6 +9,7 @@ import GtmExample from '@/views/GtmExample.vue';
 import TranslationExample from '@/views/TranslationExample.vue';
 
 import WebXR from '@/views/WebXR';
+import Banuba from '@/views/Banuba.vue';
 import WebXRThree from '@/views/WebXRThreejs.vue';
 
 Vue.use(VueRouter);
@@ -58,6 +59,11 @@ const routes = [
     path: '/threejs',
     name: 'WebXRThree',
     component: WebXRThree
+  },
+  {
+    path: '/banuba',
+    name: 'Banuba',
+    component: Banuba
   }
 ];
 
