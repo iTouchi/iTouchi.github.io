@@ -106,6 +106,14 @@
       "banuba": {
         "en": "Banuba",
         "nl": "Banuba"
+      },
+      "ARjs": {
+        "en": "AR.js",
+        "nl": "AR.js"
+      },
+      "Wall": {
+        "en": "8th Wall",
+        "nl": "8ste Muur"
       }
     }
   }

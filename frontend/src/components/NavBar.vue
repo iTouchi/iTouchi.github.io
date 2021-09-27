@@ -9,6 +9,8 @@
       <router-link to="/translations">{{linkNames.translations}}</router-link> -->
       <router-link to="/webxr">{{linkNames.webxr}}</router-link>
       <router-link to="/banuba">{{linkNames.banuba}}</router-link>
+        <router-link to="/arjs">{{linkNames.ARjs}}</router-link>
+        <router-link to="/8thwall">{{linkNames.Wall}}</router-link>
     </div>
   </nav>
 </template>

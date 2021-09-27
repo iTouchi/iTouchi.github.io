@@ -12,7 +12,6 @@
           core of the WebXR feature set, managing the selection of output
           devices, render the 3D scene to the chosen device at the appropriate
           frame rate, and manage motion vectors created using input controllers.
-          <MonoSpace class="dark">@/router/index.js</MonoSpace>.
         </p>
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API"
@@ -39,7 +38,7 @@
             <b>Active parameter: {{ $route.params.parameter }}</b>
           </p>
           <p>
-            Works on any device that runs Chrome broswer version XX and higher
+            Works on any device that runs Chrome broswer version 79 and higher
           </p>
           <p>
             To view WebXR on an iPhone with Safari the user needs to download
@@ -52,6 +51,11 @@
           <p>
             WebKit Bugzilla:
             <a href="https://bugs.webkit.org/show_bug.cgi?id=208988">link</a>
+          </p>
+          <p>
+            On chrome you need to make sure experimental WebXR AR Module is
+            enabled under <MonoSpace class="light">chrome://flags</MonoSpace> and the page must be served over HTTPS.
+            
           </p>
         </div>
         <div class="container">

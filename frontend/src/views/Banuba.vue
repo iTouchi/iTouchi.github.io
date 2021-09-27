@@ -22,7 +22,7 @@
               >Documentation</a
             >
           </div>
-          <div class="video-container">
+          <div class="sample-container">
             <video
               class="js-video-play"
               poster="https://f.hubspotusercontent10.net/hubfs/4992313/img_F_haircolor@2x-min-1.jpg"
@@ -48,11 +48,12 @@
           <p>
             Here you can see wich broswers support WebGL 2.0:
           </p>
-          <p>
+          <!-- <p>
             <a href="https://caniuse.com/?search=webgl2"
               >Can I use WebGL 2.0?</a
             >
-          </p>
+          </p> -->
+          <iframe src="https://caniuse.com/?search=webgl2" height="480px" width="100%"></iframe>
         </div>
         <div class="container">
           <h2>Features</h2>
@@ -202,11 +203,18 @@ export default {
       .container {
         display: flex;
         flex-direction: row;
+                flex-wrap: wrap;
         justify-content: space-between;
-        .video-container {
+        .sample-container {
+          margin-top: 16px;
+          margin-right: 16px;
+          margin-left: 16px;
+          height: 400px;
+          @include tablet-up {
+            max-width: 600px;
+          }
           .js-video-play {
-            max-height: 50%;
-            margin-top: px;
+            max-height: 100%;
           }
         }
       }
