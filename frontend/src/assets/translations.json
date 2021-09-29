@@ -114,6 +114,14 @@
       "Wall": {
         "en": "8th Wall",
         "nl": "8ste Muur"
+      },
+      "Zapworks": {
+        "en": "Zapworks",
+        "nl": "Zapworks"
+      },
+      "WebARkit": {
+        "en": "WebARkit",
+        "nl": "WebARkit"
       }
     }
   }

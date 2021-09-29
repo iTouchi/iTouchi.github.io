@@ -11,6 +11,8 @@
       <router-link to="/banuba">{{linkNames.banuba}}</router-link>
         <router-link to="/arjs">{{linkNames.ARjs}}</router-link>
         <router-link to="/8thwall">{{linkNames.Wall}}</router-link>
+        <router-link to="/zapworks">{{linkNames.Zapworks}}</router-link>
+        <router-link to="/WEBARKIT">{{linkNames.WebARkit}}</router-link>
     </div>
   </nav>
 </template>

@@ -13,6 +13,8 @@ import WebXRThree from "@/views/WebXRThreejs.vue";
 import Banuba from "@/views/Banuba.vue";
 import ARjs from "@/views/ARjs";
 import Wall from "@/views/8thwall";
+import Zapworks from "@/views/Zapworks";
+import WebARkit from "@/views/WebARkit";
 
 Vue.use(VueRouter);
 
@@ -76,7 +78,17 @@ const routes = [
     path: "/8thwall",
     name: "8thWall",
     component: Wall,
-  }
+  },
+  {
+    path: "/zapworks",
+    name: "zapworks",
+    component: Zapworks,
+  },
+  {
+    path: "/webarkit",
+    name: "webarkit",
+    component: WebARkit,
+  },
 ];
 
 const router = new VueRouter({

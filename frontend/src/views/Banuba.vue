@@ -48,11 +48,6 @@
           <p>
             Here you can see wich broswers support WebGL 2.0:
           </p>
-          <!-- <p>
-            <a href="https://caniuse.com/?search=webgl2"
-              >Can I use WebGL 2.0?</a
-            >
-          </p> -->
           <iframe src="https://caniuse.com/?search=webgl2" height="480px" width="100%"></iframe>
         </div>
         <div class="container">
