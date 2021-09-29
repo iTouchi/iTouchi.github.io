@@ -7,29 +7,18 @@
         <div class="container">
           <div>
             <p class="description">
-              Zapworks is a complete AR toolkit.
+              WebARkit wants to become the next WebAR standard. The ARtoolkit
+              project is dead his successor ARtoolkitX is not so much web
+              friendly. That’s why WebARkit wants to develop a newer version
+              derived from the two in a smarter sdk especially designed for JS.
             </p>
             <a
-              href="https://docs.zap.works/"
+              href="https://www.webarkit.org/examples/"
               class="button"
               target="_blank"
               rel="noopener noreferrer"
-              >Documentation</a
+              >Demos</a
             >
-            <a
-              href="https://zap.works/showcase/"
-              class="button"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Showcase</a
-            >
-          </div>
-          <div class="sample-container">
-            <img
-              class="sample-image"
-              src="https://docs.zap.works/static/img/zappar-studio/project-templates/billboardedHotspots/hotspots.gif"
-              alt="ARjs Samples"
-            />
           </div>
         </div>
       </div>
@@ -39,133 +28,27 @@
         <div class="container">
           <h2>Pros and cons</h2>
           <p>
-            Zapworks works great on the web when it comes to marker and
-            image-based AR. But it lacks some options compared to competitors
-            like 8th wall on the web. It has good support for different 3D Js
-            frameworks and Game engines.
+            Very ambitious open source project but too young to be useful right
+            now. There are better options on the market. But definitely one to
+            keep an eye on.
           </p>
-        </div>
-
-        <div class="container">
-          <h2>Features</h2>
           <p>
-            Not all features of Zapworks are available on the web. For example
-            world tracking is one of those features that don’t work on the web.
-            <a
-              href="https://docs.zap.works/general/platform/webar-and-app-platforms/"
-              target="_blank"
-              >Supported Features</a
-            >
-          </p>
-          <div>
-            <h3>Image Tracking</h3>
-            <li>
-              This makes it possible to create augmented reality experiences
-              where digital content appears attached to a physical image as it
-              moves around in the camera view
-            </li>
-          </div>
-          <div>
-            <h3>Face Tracking</h3>
-            <li>
-              Face Group: Allows the attachment of 2D/3D objects on the users
-              face
-            </li>
-            <li>
-              Face Paint: Projects an image on the users face.
-            </li>
-          </div>
-        </div>
-        <div class="container">
-          <h2>Compatibility</h2>
-          <li>Safari (iOS 11.3+)</li>
-          <li>Chrome</li>
-          <h3>3D JS FRAMEWORKS AND GAME ENGINES</h3>
-          <li>Vanilla JavaScript</li>
-          <li>Unity</li>
-          <li>PlayCanvas</li>
-          <li>A-FRAME</li>
-          <li>Three.js</li>
-          <li>React Three.js</li>
-          <li>Babylon.js</li>
-        </div>
-      </div>
-    </section>
-    <section class="content">
-      <div class="full-width">
-        <div class="container">
-          <h2>Pricing</h2>
-
-          <h3>Starter - $65 / month</h3>
-          <li>Unlimited projects</li>
-          <li>Team members: 1</li>
-          <li>No Additional members</li>
-          <li>Views (Zapper Hosted): 12k / year</li>
-          <li>Additional views: $25 / thousand</li>
-          <li>Support level: Forum only</li>
-
-          <h3>Pro - $175 / month</h3>
-          <li>Unlimited projects</li>
-          <li>Team members: 3</li>
-          <li>Additional members: $270 / year</li>
-          <li>Views (zapper hosted): 30k / year</li>
-          <li>Additional views: $20 / thousand</li>
-          <li>Support level: Email support</li>
-
-          <h3>Enterprise - $Custom / month</h3>
-          <li>Unlimited projects</li>
-          <li>Team members: 10</li>
-          <li>Additional members: $140 / year</li>
-          <li>Views (zapper hosted): 100k / year</li>
-          <li>Additional views: from $6 / thousand</li>
-          <li>Support level: Priority support</li>
-          <li>And more..</li>
-          <p>
-            On the website you can find more detailed information about the
-            pricing:
-            <a href="https://zap.works/pricing/" target="_blank"
-              >Pricing Plans</a
-            >
+            Right now the documentation is also not that great.
           </p>
         </div>
-
         <div class="container">
           <h2>Sources</h2>
           <p>
-            <a href="https://zap.works/" target="_blank">Zapworks</a>
+            <a href="https://www.webarkit.org/" target="_blank">WebARkit</a>
           </p>
           <p>
-            <a
-              href="https://docs.zap.works/general/platform/webar-and-app-platforms/"
-              target="_blank"
-              >WebAR and App Platforms</a
-            >
+            <a href="https://github.com/webarkit/" target="_blank">Github</a>
           </p>
           <p>
-            <a href="https://docs.zap.works/universal-ar/" target="_blank"
-              >JS Frameworks and Game Enignes</a
-            >
+            <a href="https://www.webarkit.org/" target="_blank">WebARkit</a>
           </p>
           <p>
-            <a
-              href="https://docs.zap.works/studio/getting-started/world-tracking/"
-              target="_blank"
-              >World Tracking</a
-            >
-          </p>
-          <p>
-            <a
-              href="https://docs.zap.works/studio/getting-started/image-tracking/"
-              target="_blank"
-              >Image Tracking</a
-            >
-          </p>
-          <p>
-            <a
-              href="https://docs.zap.works/studio/getting-started/face-tracking/"
-              target="_blank"
-              >Face Tracking</a
-            >
+            <a href="https://github.com/artoolkitx/artoolkitx" target="_blank">ARtoolkitX</a>
           </p>
         </div>
       </div>
