@@ -48,7 +48,11 @@
           <p>
             Here you can see wich broswers support WebGL 2.0:
           </p>
-          <iframe src="https://caniuse.com/?search=webgl2" height="480px" width="100%"></iframe>
+          <iframe
+            src="https://caniuse.com/?search=webgl2"
+            height="480px"
+            width="100%"
+          ></iframe>
         </div>
         <div class="container">
           <h2>Features</h2>
@@ -58,6 +62,7 @@
             the list of features and their support on platforms on
             <a
               href="https://docs.banuba.com/face-ar-sdk/overview/sdk_features#rendering-engine"
+              target="_blank"
               >this page.</a
             >
             Below you can find the list of features that ar supperted on the
@@ -106,7 +111,13 @@
           </div>
           <div>
             <h3>Face AR SDK Experimental Features</h3>
-            <li>Pulse (Heart rate)</li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=8lhJsNCMCOY"
+                target="_blank"
+                >Pulse (Heart rate) – Not for sale just a protoype</a
+              >
+            </li>
             <li>Action Units</li>
           </div>
         </div>
@@ -154,17 +165,19 @@
         </div>
         <div class="container">
           <h2>Sources</h2>
+          <p><a href="https://www.banuba.com/webar-sdk" target="_blank">Banuba WebAR</a></p>
           <p>
-            <a href="https://www.banuba.com/webar-sdk">Banuba WebAR</a>
-          </p>
-          <p>
-            <a href="https://docs.banuba.com/face-ar-sdk/web/web_overview"
+            <a
+              href="https://docs.banuba.com/face-ar-sdk/web/web_overview"
+              target="_blank"
               >Banuba SDK Web AR</a
             >
           </p>
           <p>
             <a href="https://github.com/Banuba">Banuba Git</a>
           </p>
+          <p><a href="https://www.youtube.com/watch?v=2AaqUD-Ctko" target="_blank">Touchless interfaces with AR hand tracking</a></p>
+          <p><a href="https://www.youtube.com/channel/UCl6SgG453jxEjKxFXGmB4Lg/videos" target="_blank">Banuba Youtube Channel</a></p>
         </div>
       </div>
     </section>
@@ -198,7 +211,7 @@ export default {
       .container {
         display: flex;
         flex-direction: row;
-                flex-wrap: wrap;
+        flex-wrap: wrap;
         justify-content: space-between;
         .sample-container {
           margin-top: 16px;
