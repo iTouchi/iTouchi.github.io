@@ -15,6 +15,7 @@ import ARjs from "@/views/ARjs";
 import Wall from "@/views/8thwall";
 import Zapworks from "@/views/Zapworks";
 import WebARkit from "@/views/WebARkit";
+import Unity from "@/views/Unity";
 
 Vue.use(VueRouter);
 
@@ -88,6 +89,11 @@ const routes = [
     path: "/webarkit",
     name: "webarkit",
     component: WebARkit,
+  },
+  {
+    path: "/unity",
+    name: "unity",
+    component: Unity,
   },
 ];
 

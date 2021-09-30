@@ -65,7 +65,7 @@
           </div>
           <div>
             <h3>Image Targets</h3>
-            <li>Works on both flay and curved surfaces</li>
+            <li>Works on both flat and curved surfaces</li>
           </div>
           <div>
             <h3>Face Effects</h3>

@@ -15,7 +15,8 @@
         <router-link to="/arjs">{{linkNames.ARjs}}</router-link> |
         <router-link to="/8thwall">{{linkNames.Wall}}</router-link> |
         <router-link to="/zapworks">{{linkNames.Zapworks}}</router-link> |
-        <router-link to="/webarkit">{{linkNames.WebARkit}}</router-link> 
+        <router-link to="/webarkit">{{linkNames.WebARkit}}</router-link> |
+        <router-link to="/unity">{{linkNames.Unity}}</router-link> 
       </div>
     </div>
   </div>
