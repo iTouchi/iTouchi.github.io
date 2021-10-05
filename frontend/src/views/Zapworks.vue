@@ -96,7 +96,7 @@
         <div class="container">
           <h2>Pricing</h2>
 
-          <h3>Starter - $65 / month</h3>
+          <h3>Starter - $55 / month</h3>
           <li>Unlimited projects</li>
           <li>Team members: 1</li>
           <li>No Additional members</li>
