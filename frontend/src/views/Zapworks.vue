@@ -7,7 +7,12 @@
         <div class="container">
           <div>
             <p class="description">
-              Zapworks is a complete AR toolkit.
+              Zapworks is a complete toolkit. It works great on the web when it
+              comes to marker and image-based AR. But it lacks some options
+              compared to competitors like 8th wall. On the other hand it’s less
+              expensive than 8th wall. Zapworks has a great portfolio with
+              projects for well-known brands. It also has good support for
+              different 3D JS frameworks and Game engines.
             </p>
             <a
               href="https://docs.zap.works/"
@@ -17,11 +22,11 @@
               >Documentation</a
             >
             <a
-              href="https://zap.works/showcase/"
+              href="https://docs.zap.works/universal-ar/example-project-library/"
               class="button"
               target="_blank"
               rel="noopener noreferrer"
-              >Showcase</a
+              >Demos</a
             >
           </div>
           <div class="sample-container">
@@ -39,10 +44,14 @@
         <div class="container">
           <h2>Pros and cons</h2>
           <p>
-            Zapworks works great on the web when it comes to marker and
-            image-based AR. But it lacks some options compared to competitors
-            like 8th wall on the web. It has good support for different 3D Js
-            frameworks and Game engines.
+            Zap works has a hard time placing virtual objects on the real world.
+            The object tend to drift away when moving the camera. This is
+            probably the case because world tracking is not supported on the
+            web. They however said in the forums that they are working on world
+            tracking but they’re not able to give a time frame on it. The one
+            thing what I couldn’t find on the examples and demos of other
+            solutions. Is the interactivity. In Zapworks you can push virtual
+            buttons in AR.
           </p>
         </div>
 
@@ -135,6 +144,9 @@
             <a href="https://zap.works/" target="_blank">Zapworks</a>
           </p>
           <p>
+            <a href="https://www.zappar.com/" target="_blank">Zappar</a>
+          </p>
+          <p>
             <a
               href="https://docs.zap.works/general/platform/webar-and-app-platforms/"
               target="_blank"
@@ -155,6 +167,13 @@
           </p>
           <p>
             <a
+              href="https://forum.zap.works/t/world-tracking-in-webar/5611"
+              target="_blank"
+              >World Tracking in Web AR</a
+            >
+          </p>
+          <p>
+            <a
               href="https://docs.zap.works/studio/getting-started/image-tracking/"
               target="_blank"
               >Image Tracking</a
@@ -165,6 +184,13 @@
               href="https://docs.zap.works/studio/getting-started/face-tracking/"
               target="_blank"
               >Face Tracking</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://zap.works/showcase/"
+              target="_blank"
+              >Showcase</a
             >
           </p>
         </div>
