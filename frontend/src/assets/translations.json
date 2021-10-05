@@ -126,6 +126,10 @@
       "Unity": {
         "en": "Unity",
         "nl": "Eenheid"
+      },
+      "ARCore": {
+        "en": "ARCore",
+        "nl": "ARCore"
       }
     }
   }
