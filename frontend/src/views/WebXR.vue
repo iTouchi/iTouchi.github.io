@@ -13,6 +13,14 @@
           devices, render the 3D scene to the chosen device at the appropriate
           frame rate, and manage motion vectors created using input controllers.
         </p>
+        <p class="description">
+          WebXR is trying to be the next web standard when it come to XR on the
+          web. Altough it’s not yet fully supported by al browsers. It has great
+          potential and it looks like they are working very hard at the W3C
+          group to make this happen. At this point in time it’s not very
+          accessible for users because it’s not standardized inside the browsers
+          yet.
+        </p>
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API"
           class="button"
@@ -54,8 +62,9 @@
           </p>
           <p>
             On chrome you need to make sure experimental WebXR AR Module is
-            enabled under <MonoSpace class="light">chrome://flags</MonoSpace> and the page must be served over HTTPS.
-            
+            enabled under
+            <MonoSpace class="light">chrome://flags</MonoSpace> and the page
+            must be served over HTTPS.
           </p>
         </div>
         <div class="container">
@@ -92,7 +101,7 @@
           <li>AR-Core-compatible devices</li>
           <li>Google Daydream</li>
           <li>HTC Vive</li>
-          <li>MAgic Leap One</li>
+          <li>Magic Leap One</li>
           <li>Microsoft Hololens</li>
           <li>Windows Mixed Reality Headsets</li>
           <li>Immersive Headsets</li>
@@ -112,6 +121,55 @@
           </p>
           <p>
             <a href="https://github.com/immersive-web">Immersive Web at W3C</a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/immersive-web/webxr/blob/master/explainer.md"
+              >WebXR Device API Explained</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://github.com/immersive-web/depth-sensing/blob/main/explainer.md"
+              >depth-sensing</a
+            >
+          </p>
+          <p>
+            <a href="https://www.reddit.com/r/LearnXR/">Learn XR Reddit</a>
+          </p>
+          <p>
+            <a href="https://github.com/immersive-web/dom-overlays"
+              >DOM overlays</a
+            >
+          </p>
+          <p>
+            <a href="https://immersiveweb.dev/">Immersiveweb.dev</a>
+          </p>
+          <p>
+            <a href="https://immersive-web.github.io/webxr">WebXR Device API</a>
+          </p>
+          <p>
+            <a href="https://immersive-web.github.io/"
+              >The Immersive Web Working Group/Community Group</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API"
+              >WebXR Device API</a
+            >
+          </p>
+          <p>
+            <a href="https://immersive-web.github.io/webxr-ar-module"
+              >WebXR Augmented Reality Module - Level 1</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://venturebeat.com/2018/02/28/the-webxr-api-opens-the-door-to-a-new-breed-of-cross-reality-games/"
+              >The WebXR API opens the door to a new breed of cross-reality
+              games</a
+            >
           </p>
         </div>
       </div>

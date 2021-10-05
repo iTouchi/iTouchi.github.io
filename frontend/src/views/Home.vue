@@ -40,7 +40,7 @@
             <td class="checkmark">✓</td>
             <td class="checkmark">✓</td>
             <td></td>
-            <td></td>
+            <td class="checkmark">✓</td>
             <td></td>
             <td></td>
             <td></td>
@@ -113,9 +113,9 @@
             <td class="checkmark">✓</td>
             <td></td>
             <td></td>
+            <td class="checkmark">✓</td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td class="checkmark">✓</td>
             <td></td>
             <td>Not yet</td>
             <td class="checkmark">✓</td>
